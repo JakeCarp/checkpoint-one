@@ -18,7 +18,7 @@
 
 <body>
     <header class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <i class="mdi mdi-omega"></i>
@@ -36,7 +36,7 @@
                             <a class="nav-link" href="#">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Reviews</a>
                         </li>
                     </ul>
                 </div>
@@ -44,6 +44,124 @@
         </nav>
     </header>
     <main class="container-fluid">
+        <div class="row mt-5 bg-hero">
+            <div class="col-md-4 p-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Reserve Your Watch Today
+                        </h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nameInput" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="nameInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phoneInput" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" name="phone" id="phoneInput"
+                                    placeholder="(555) 555-5555">
+                            </div>
+                            <div class="mb-3">
+                                <label for="messageInput" class="form-label">Message</label>
+                                <textarea class="form-control" id="messageInput" rows="3"></textarea>
+                            </div>
+                            <div class=" mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recieve email Offers and
+                                    Deals</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 d-md-flex flex-column d-none py-5">
+                <div class="border-start border-primary border-5 ps-2 bg-secondary">
+                    <h3>Leading the World in Luxury</h3>
+                    <p>with the highest quality materials and master crafstmen, nothing comes close to Omega Seamaster
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-primary">
+            <div class="col-md order-md-2 py-2">
+                <div class="card card-spill">
+                    <div class="card-body">
+                        <p> <i class="mdi mdi-magnet"></i> Anti-Magnetic</p>
+                        <p> <i class="i mdi mdi-calendar-range"></i> Date Display</p>
+                        <p> <i class="i mdi mdi-clock-time-eight-outline"></i> Master Chonometer Certified</p>
+                        <p> <i class="i mdi mdi-hospital-box-outline"></i> Swiss Made</p>
+                        <p> <i class="i mdi mdi-seal"></i> 5-Year Warranty</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md order-md-1 py-2">
+                <h4>Made from the highest quality precious metals</h4>
+                <h5>ethically sourced from fair-trade dealers</h5>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure eius placeat quam maiores debitis
+                    natus eligendi minima itaque veritatis voluptates?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 py-5 ps-5">
+                <img class="img-fluid rounded" src="/assets/alex-boscarato-U6X1le3OcpY-unsplash.jpg"
+                    alt="Man wearing a watch">
+            </div>
+            <div class="col-md-7 d-flex justify-content-center align-items-center flex-column flex-wrap">
+                <h4>Description</h4>
+                <p>The Seamaster Aqua Terra is a superb tribute to OMEGA’s rich maritime heritage. In this 38mm model,
+                    the symmetrical case
+                    has been crafted from stainless steel, with a wave-edged design featured on the back.
+
+                    The blue dial is sun-brushed and is distinguished by a horizontal “teak” pattern which is inspired
+                    by the wooden decks
+                    of luxury sailboats. There is also a date window at 6 o'clock and rhodium-plated hands and indexes
+                    filled with white
+                    Super-LumiNova.
+
+                    Presented on a polished and brushed bracelet, this certified chronometer is powered by the OMEGA
+                    Master Chronometer
+                    calibre 8800, certified at the industry’s highest standard by the Swiss Federal Institute of
+                    Metrology (METAS).</p>
+                <button class="btn btn-rounded btn-primary">Product Sheet</button>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="card order-md-2 col-md-3 mt-5 border-secondary">
+                <div class="card-body text-center hero-card">
+                    <i class="mdi mdi-star"></i>
+                    <i class="mdi mdi-star"></i>
+                    <i class="mdi mdi-star"></i>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quos. At aut dolorum tempora
+                        adipisci amet animi repellendus, magnam ut.</p>
+
+                </div>
+            </div>
+            <div class="card order-md-1 col-md-3 mt-5 border-secondary">
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quasi expedita dolores
+                        voluptatem sunt soluta doloremque, illo explicabo corporis ducimus cupiditate saepe error alias
+                        non corrupti natus blanditiis odit, laudantium distinctio deleniti illum, sint consequuntur!
+                    </p>
+                </div>
+            </div>
+            <div class="card order-md-3 col-md-3 mt-5 border-secondary">
+                <div class="card-body ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione eos, nesciunt, est
+                        quaerat illo accusantium consequatur commodi adipisci tempore eaque. Autem, in tempora.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-primary">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam aut voluptas, nobis cupiditate qui
+                tempore!</p>
+        </div>
     </main>
     <footer class="container-fluid">
     </footer>
